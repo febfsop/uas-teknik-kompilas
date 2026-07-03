@@ -125,3 +125,43 @@ print("\n===== THREE ADDRESS CODE =====")
 
 print("t1 = a + b")
 print("return t1")
+
+```
+
+### 3. Output Program
+```text
+===== SIMULASI KOMPILER =====
+Masukkan deklarasi fungsi:
+int tambah(int a, int b){ return a+b; }
+
+===== HASIL TOKEN =====
+('KEYWORD', 'int')
+('IDENTIFIER', 'tambah')
+('LPAREN', '(')
+('KEYWORD', 'int')
+('IDENTIFIER', 'a')
+('COMMA', ',')
+('KEYWORD', 'int')
+('IDENTIFIER', 'b')
+('RPAREN', ')')
+('LBRACE', '{')
+('KEYWORD', 'return')
+('IDENTIFIER', 'a')
+('PLUS', '+')
+('IDENTIFIER', 'b')
+('SEMICOLON', ';')
+('RBRACE', '}')
+
+===== ABSTRACT SYNTAX TREE =====
+{'Function': 'tambah', 'ReturnType': 'int', 'Parameters': 'int a, int b', 'Return': {'Operator': '+', 'Left': 'a', 'Right': 'b'}}
+
+===== SEMANTIC ANALYSIS =====
+Semantic Analysis : VALID
+
+===== THREE ADDRESS CODE =====
+t1 = a + b
+return t1
+
+
+
+
