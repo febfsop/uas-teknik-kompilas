@@ -128,7 +128,7 @@ print("return t1")
 
 ```
 
-### 3. Output Program
+### 4 Output Program
 ```text
 ===== SIMULASI KOMPILER =====
 Masukkan deklarasi fungsi:
