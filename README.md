@@ -1,4 +1,4 @@
-# uas-teknik-kompilas
+# uas-teknik-kompilasi
 
 1. Pilihan Konstruksi
 Konstruksi yang dipilih: Deklarasi fungsi/metode.
