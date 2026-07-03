@@ -26,7 +26,7 @@
          | void
 
 <identifier> ::= letter(letter|digit)*
-
+```
 
 ### 3. Implementasi Program
 
