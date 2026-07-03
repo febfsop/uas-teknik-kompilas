@@ -3,8 +3,8 @@
 ## 1. Pilihan Konstruksi
 **Konstruksi yang dipilih:**  `Deklarasi fungsi/metode`
 
-2. Pattern (Pola Sintaks)
-Pola didefinisikan menggunakan pendekatan Backus-Naur Form (BNF):
+## 2. Pattern (Pola Sintaks)
+**Pola didefinisikan menggunakan pendekatan Backus-Naur Form (BNF)**:
 
 ```text
 <function> ::= <type> <identifier> "(" <parameter_list> ")" "{" <statement> "}"
